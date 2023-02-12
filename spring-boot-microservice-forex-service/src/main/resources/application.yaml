@@ -1,0 +1,15 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: forex-service
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/microservice-example
+    username: postgres
+    password: 27030176
+  flyway:
+    baseline-on-migrate: true
